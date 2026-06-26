@@ -1,0 +1,20 @@
+/* Blue & White theme for Dentist Dashboard */
+:root {
+  --bg: #f8fafc;
+  --panel: #ffffff;
+  --text: #0f172a;
+  --muted: #1d4ed8;
+  --border: rgba(29,78,216,0.12);
+}
+
+body { background: var(--bg); color: var(--text); }
+
+.dentist-card { background: var(--panel); border: 1px solid var(--border); border-radius: 12px; box-shadow: 0 6px 16px rgba(29,78,216,0.06), 0 1px 2px rgba(0,0,0,0.03); }
+.dentist-btn { background: #2563eb; color: #ffffff; border: 1px solid rgba(29,78,216,0.2); }
+.dentist-btn-outline { border: 1px solid #93c5fd; color: #1d4ed8; }
+.dentist-table thead { color: #475569; }
+.dentist-table tbody tr:hover { background: #eff6ff; }
+
+/* Ensure main content doesn't sit under fixed sidebar (260px) */
+.dentist-main { margin-left: 260px; }
+

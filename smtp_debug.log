@@ -1,0 +1,285 @@
+[2025-10-08 01:47:39] (level 2) SERVER -> CLIENT: 220 smtp.gmail.com ESMTP d9443c01a7336-28e8d1d5cc6sm178563245ad.111 - gsmtp
+
+[2025-10-08 01:47:39] (level 1) CLIENT -> SERVER: EHLO Fernando
+
+[2025-10-08 01:47:39] (level 2) SERVER -> CLIENT: 250-smtp.gmail.com at your service, [182.255.40.190]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[2025-10-08 01:47:39] (level 1) CLIENT -> SERVER: STARTTLS
+
+[2025-10-08 01:47:39] (level 2) SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+[2025-10-08 01:47:40] (level 1) CLIENT -> SERVER: EHLO Fernando
+
+[2025-10-08 01:47:40] (level 2) SERVER -> CLIENT: 250-smtp.gmail.com at your service, [182.255.40.190]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[2025-10-08 01:47:40] (level 1) CLIENT -> SERVER: AUTH LOGIN
+
+[2025-10-08 01:47:40] (level 2) SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[2025-10-08 01:47:40] (level 1) CLIENT -> SERVER: [credentials hidden]
+[2025-10-08 01:47:40] (level 2) SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[2025-10-08 01:47:40] (level 1) CLIENT -> SERVER: [credentials hidden]
+[2025-10-08 01:47:40] (level 2) SERVER -> CLIENT: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-28e8d1d5cc6sm178563245ad.111 - gsmtp
+
+[2025-10-08 01:47:40] (level 1) SMTP ERROR: Password command failed: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-28e8d1d5cc6sm178563245ad.111 - gsmtp
+
+[2025-10-08 01:47:40] (level 2) SMTP Error: Could not authenticate.
+[2025-10-08 01:47:40] (level 1) CLIENT -> SERVER: QUIT
+
+[2025-10-08 01:47:40] (level 2) SERVER -> CLIENT: 221 2.0.0 closing connection d9443c01a7336-28e8d1d5cc6sm178563245ad.111 - gsmtp
+
+[2025-10-08 01:47:40] (level 2) SMTP Error: Could not authenticate.
+[2025-10-08 01:56:32] (level 2) SERVER -> CLIENT: 220 smtp.gmail.com ESMTP 98e67ed59e1d1-33b5295ab65sm142858a91.1 - gsmtp
+
+[2025-10-08 01:56:32] (level 1) CLIENT -> SERVER: EHLO Fernando
+
+[2025-10-08 01:56:32] (level 2) SERVER -> CLIENT: 250-smtp.gmail.com at your service, [182.255.40.190]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[2025-10-08 01:56:32] (level 1) CLIENT -> SERVER: STARTTLS
+
+[2025-10-08 01:56:32] (level 2) SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+[2025-10-08 01:56:32] (level 1) CLIENT -> SERVER: EHLO Fernando
+
+[2025-10-08 01:56:33] (level 2) SERVER -> CLIENT: 250-smtp.gmail.com at your service, [182.255.40.190]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[2025-10-08 01:56:33] (level 1) CLIENT -> SERVER: AUTH LOGIN
+
+[2025-10-08 01:56:33] (level 2) SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[2025-10-08 01:56:33] (level 1) CLIENT -> SERVER: [credentials hidden]
+[2025-10-08 01:56:33] (level 2) SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[2025-10-08 01:56:33] (level 1) CLIENT -> SERVER: [credentials hidden]
+[2025-10-08 01:56:33] (level 2) SERVER -> CLIENT: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 98e67ed59e1d1-33b5295ab65sm142858a91.1 - gsmtp
+
+[2025-10-08 01:56:33] (level 1) SMTP ERROR: Password command failed: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 98e67ed59e1d1-33b5295ab65sm142858a91.1 - gsmtp
+
+[2025-10-08 01:56:33] (level 2) SMTP Error: Could not authenticate.
+[2025-10-08 01:56:33] (level 1) CLIENT -> SERVER: QUIT
+
+[2025-10-08 01:56:33] (level 2) SERVER -> CLIENT: 221 2.0.0 closing connection 98e67ed59e1d1-33b5295ab65sm142858a91.1 - gsmtp
+
+[2025-10-08 01:56:33] (level 2) SMTP Error: Could not authenticate.
+[2025-10-08 01:57:04] (level 1) SMTP ERROR: Failed to connect to server:  (0)
+[2025-10-08 01:57:04] (level 2) SMTP Error: Could not connect to SMTP host. Failed to connect to server
+[2025-10-08 02:23:31] (level 2) SERVER -> CLIENT: 220 smtp.gmail.com ESMTP d2e1a72fcca58-793a9c6e916sm585931b3a.50 - gsmtp
+
+[2025-10-08 02:23:31] (level 1) CLIENT -> SERVER: EHLO Fernando
+
+[2025-10-08 02:23:31] (level 2) SERVER -> CLIENT: 250-smtp.gmail.com at your service, [182.255.40.190]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[2025-10-08 02:23:31] (level 1) CLIENT -> SERVER: STARTTLS
+
+[2025-10-08 02:23:32] (level 2) SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+[2025-10-08 02:23:32] (level 1) CLIENT -> SERVER: EHLO Fernando
+
+[2025-10-08 02:23:32] (level 2) SERVER -> CLIENT: 250-smtp.gmail.com at your service, [182.255.40.190]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[2025-10-08 02:23:32] (level 1) CLIENT -> SERVER: AUTH LOGIN
+
+[2025-10-08 02:23:32] (level 2) SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[2025-10-08 02:23:32] (level 1) CLIENT -> SERVER: [credentials hidden]
+[2025-10-08 02:23:32] (level 2) SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[2025-10-08 02:23:32] (level 1) CLIENT -> SERVER: [credentials hidden]
+[2025-10-08 02:23:32] (level 2) SERVER -> CLIENT: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials d2e1a72fcca58-793a9c6e916sm585931b3a.50 - gsmtp
+
+[2025-10-08 02:23:32] (level 1) SMTP ERROR: Password command failed: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials d2e1a72fcca58-793a9c6e916sm585931b3a.50 - gsmtp
+
+[2025-10-08 02:23:32] (level 2) SMTP Error: Could not authenticate.
+[2025-10-08 02:23:32] (level 1) CLIENT -> SERVER: QUIT
+
+[2025-10-08 02:23:32] (level 2) SERVER -> CLIENT: 221 2.0.0 closing connection d2e1a72fcca58-793a9c6e916sm585931b3a.50 - gsmtp
+
+[2025-10-08 02:23:32] (level 2) SMTP Error: Could not authenticate.
+[2025-10-08 02:23:48] (level 2) SERVER -> CLIENT: 220 smtp.gmail.com ESMTP 98e67ed59e1d1-33b510e6d40sm1033121a91.2 - gsmtp
+
+[2025-10-08 02:23:48] (level 1) CLIENT -> SERVER: EHLO Fernando
+
+[2025-10-08 02:23:49] (level 2) SERVER -> CLIENT: 250-smtp.gmail.com at your service, [182.255.40.190]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[2025-10-08 02:23:49] (level 1) CLIENT -> SERVER: STARTTLS
+
+[2025-10-08 02:23:49] (level 2) SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+[2025-10-08 02:23:49] (level 1) CLIENT -> SERVER: EHLO Fernando
+
+[2025-10-08 02:23:49] (level 2) SERVER -> CLIENT: 250-smtp.gmail.com at your service, [182.255.40.190]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[2025-10-08 02:23:49] (level 1) CLIENT -> SERVER: AUTH LOGIN
+
+[2025-10-08 02:23:49] (level 2) SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[2025-10-08 02:23:49] (level 1) CLIENT -> SERVER: [credentials hidden]
+[2025-10-08 02:23:49] (level 2) SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[2025-10-08 02:23:49] (level 1) CLIENT -> SERVER: [credentials hidden]
+[2025-10-08 02:23:49] (level 2) SERVER -> CLIENT: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 98e67ed59e1d1-33b510e6d40sm1033121a91.2 - gsmtp
+
+[2025-10-08 02:23:49] (level 1) SMTP ERROR: Password command failed: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 98e67ed59e1d1-33b510e6d40sm1033121a91.2 - gsmtp
+
+[2025-10-08 02:23:49] (level 2) SMTP Error: Could not authenticate.
+[2025-10-08 02:23:49] (level 1) CLIENT -> SERVER: QUIT
+
+[2025-10-08 02:23:50] (level 2) SERVER -> CLIENT: 221 2.0.0 closing connection 98e67ed59e1d1-33b510e6d40sm1033121a91.2 - gsmtp
+
+[2025-10-08 02:23:50] (level 2) SMTP Error: Could not authenticate.
+[2025-10-08 02:24:45] (level 2) SERVER -> CLIENT: 220 smtp.gmail.com ESMTP d9443c01a7336-28e8d133ecasm177092785ad.62 - gsmtp
+
+[2025-10-08 02:24:45] (level 1) CLIENT -> SERVER: EHLO Fernando
+
+[2025-10-08 02:24:45] (level 2) SERVER -> CLIENT: 250-smtp.gmail.com at your service, [182.255.40.190]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[2025-10-08 02:24:45] (level 1) CLIENT -> SERVER: STARTTLS
+
+[2025-10-08 02:24:45] (level 2) SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+[2025-10-08 02:24:45] (level 1) CLIENT -> SERVER: EHLO Fernando
+
+[2025-10-08 02:24:46] (level 2) SERVER -> CLIENT: 250-smtp.gmail.com at your service, [182.255.40.190]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[2025-10-08 02:24:46] (level 1) CLIENT -> SERVER: AUTH LOGIN
+
+[2025-10-08 02:24:46] (level 2) SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[2025-10-08 02:24:46] (level 1) CLIENT -> SERVER: [credentials hidden]
+[2025-10-08 02:24:46] (level 2) SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[2025-10-08 02:24:46] (level 1) CLIENT -> SERVER: [credentials hidden]
+[2025-10-08 02:24:46] (level 2) SERVER -> CLIENT: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-28e8d133ecasm177092785ad.62 - gsmtp
+
+[2025-10-08 02:24:46] (level 1) SMTP ERROR: Password command failed: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-28e8d133ecasm177092785ad.62 - gsmtp
+
+[2025-10-08 02:24:46] (level 2) SMTP Error: Could not authenticate.
+[2025-10-08 02:24:46] (level 1) CLIENT -> SERVER: QUIT
+
+[2025-10-08 02:24:47] (level 2) SERVER -> CLIENT: 221 2.0.0 closing connection d9443c01a7336-28e8d133ecasm177092785ad.62 - gsmtp
+
+[2025-10-08 02:24:47] (level 2) SMTP Error: Could not authenticate.
+[2025-10-08 02:25:48] (level 2) SERVER -> CLIENT: 220 Mailgun Influx ready
+
+[2025-10-08 02:25:48] (level 1) CLIENT -> SERVER: EHLO Fernando
+
+[2025-10-08 02:25:48] (level 2) SERVER -> CLIENT: 250-edd6ca2df49b97ee54f4c13d84026a21d168a5860af709f627129fce5837f9d8
+250-AUTH PLAIN LOGIN
+250-SIZE 52428800
+250-8BITMIME
+250-SMTPUTF8
+250-PIPELINING
+250 STARTTLS
+
+[2025-10-08 02:25:48] (level 1) CLIENT -> SERVER: STARTTLS
+
+[2025-10-08 02:25:48] (level 2) SERVER -> CLIENT: 220 Go ahead
+
+[2025-10-08 02:25:48] (level 1) CLIENT -> SERVER: EHLO Fernando
+
+[2025-10-08 02:25:49] (level 2) SERVER -> CLIENT: 250-edd6ca2df49b97ee54f4c13d84026a21d168a5860af709f627129fce5837f9d8
+250-AUTH PLAIN LOGIN
+250-SIZE 52428800
+250-8BITMIME
+250-SMTPUTF8
+250 PIPELINING
+
+[2025-10-08 02:25:49] (level 1) CLIENT -> SERVER: AUTH LOGIN
+
+[2025-10-08 02:25:49] (level 2) SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[2025-10-08 02:25:49] (level 1) CLIENT -> SERVER: [credentials hidden]
+[2025-10-08 02:25:49] (level 2) SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[2025-10-08 02:25:49] (level 1) CLIENT -> SERVER: [credentials hidden]
+[2025-10-08 02:25:49] (level 2) SERVER -> CLIENT: 535 Authentication failed
+
+[2025-10-08 02:25:49] (level 1) SMTP ERROR: Password command failed: 535 Authentication failed
+
+[2025-10-08 02:25:49] (level 2) SMTP Error: Could not authenticate.
+[2025-10-08 02:25:49] (level 1) CLIENT -> SERVER: QUIT
+
+[2025-10-08 02:25:49] (level 2) SERVER -> CLIENT: 
+[2025-10-08 02:25:49] (level 1) SMTP ERROR: QUIT command failed: 
+[2025-10-08 02:25:49] (level 2) SMTP Error: Could not authenticate.

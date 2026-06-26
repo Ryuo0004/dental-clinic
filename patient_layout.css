@@ -1,0 +1,26 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.main-content-area {
+    flex: 1 1 auto;
+    display: flex;
+    overflow-y: hidden; /* Prevent body scrollbar when inner content scrolls */
+}
+
+.scrollable-content {
+    flex: 1 1 auto;
+    overflow-y: auto; /* This is the container that will scroll */
+}
+
+.footer-bar {
+    flex-shrink: 0; /* Prevent footer from shrinking */
+}

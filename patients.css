@@ -1,0 +1,73 @@
+/* Blue & White theme for Patient Dashboard (refined) */
+
+:root {
+  --bg: #f8fafc; /* soft near-white */
+  --panel: #ffffff;
+  --muted: rgba(29,78,216,0.8); /* muted blue */
+  --text: #0f172a; /* deep blue for text */
+  --border: rgba(29,78,216,0.12); /* subtle blue border */
+  --primary: #3b82f6; /* blue */
+  --primary-strong: #1d4ed8; /* strong blue */
+  --shadow: 0 6px 16px rgba(29,78,216,0.06), 0 1px 2px rgba(0,0,0,0.03);
+  /* Single-color status mapped to blue variants */
+  --green: #1d4ed8;
+  --yellow: #3b82f6;
+  --red: #1e3a8a;
+}
+
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; }
+body { font-family: Arial, sans-serif; background: var(--bg); color: var(--text); line-height: 1.4; }
+
+.layout { display: block; min-height: 100vh; }
+.sidebar {
+  width: 240px; background: #ffffff; color: var(--text); padding: 16px; border-right: 1px solid var(--border);
+  position: fixed; left: 0; top: 56px; bottom: 0; overflow-y: auto;
+}
+.sidebar h3 { margin: 0 0 10px; font-size: 18px; font-weight: 700; color: var(--primary-strong); }
+.sidebar a { display: block; color: var(--primary-strong); text-decoration: none; padding: 10px 12px; border-radius: 8px; margin: 6px 0; transition: background 0.2s ease, transform 0.2s ease; }
+.sidebar a:hover { background: rgba(29,78,216,0.08); transform: translateX(4px); }
+.sidebar a.active { background: var(--primary-strong); color: #ffffff; }
+
+.content-wrapper { margin-left: 240px; height: calc(100vh - 56px); overflow-y: auto; }
+.content { padding: 16px; min-height: calc(100vh - 56px); padding-bottom: 72px; }
+
+.cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 12px; }
+.card { background: var(--panel); border: 1px solid var(--border); border-radius: 12px; padding: 16px; box-shadow: var(--shadow); }
+.card h5 { margin: 0 0 6px; font-size: 13px; color: var(--muted); font-weight: 700; letter-spacing: .2px; }
+.card .value { font-size: 20px; font-weight: 700; color: var(--text); }
+
+.section { background: var(--panel); border: 1px solid var(--border); border-radius: 12px; margin-top: 12px; box-shadow: var(--shadow); }
+.section-header { display:flex; align-items:center; justify-content: space-between; padding: 12px 16px; border-bottom: 1px solid var(--border); }
+.section-header h4 { margin: 0; font-size: 16px; }
+.section-body { padding: 12px 16px; }
+
+.btn { display:inline-block; padding: 8px 12px; border-radius: 8px; text-decoration:none; color: #fff; background: var(--primary-strong); border: 1px solid rgba(29,78,216,0.2); box-shadow: var(--shadow); }
+.btn:hover { filter: brightness(1.1); }
+.btn-outline { background: transparent; color: var(--primary-strong); border: 1px solid var(--primary-strong); }
+
+.table { width: 100%; border-collapse: collapse; }
+.table th, .table td { text-align: left; padding: 8px 10px; border-bottom: 1px solid var(--border); }
+.table tr:hover { background: rgba(59,130,246,0.08); }
+
+.badge { display:inline-block; padding: 2px 8px; border-radius: 999px; font-size: 12px; font-weight: 700; }
+.badge.green { background: rgba(29,78,216,0.1); color: #1d4ed8; }
+.badge.yellow { background: rgba(59,130,246,0.1); color: #3b82f6; }
+.badge.gray { background: rgba(30,64,175,0.08); color: #1e3a8a; }
+
+.header { display:flex; align-items:center; justify-content: space-between; padding: 12px 16px; background: var(--primary-strong); border-bottom: 1px solid var(--border); height: 56px; color: #ffffff; }
+.brand { display:flex; align-items:center; gap: 10px; }
+.brand .name { font-weight: 800; color: #ffffff; }
+
+.footer { background: var(--primary-strong); color: #ffffff; text-align: center; padding: 10px 0; border-top: 1px solid var(--border); position: fixed; left: 240px; right: 0; bottom: 0; }
+
+.muted { color: var(--muted); font-size: 13px; }
+.grid { display:grid; gap: 12px; }
+.grid-2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.grid-3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+
+@media (max-width: 920px) {
+  .grid-2, .grid-3 { grid-template-columns: 1fr; }
+}
+
+
